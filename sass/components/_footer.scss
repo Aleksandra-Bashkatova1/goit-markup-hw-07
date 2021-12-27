@@ -1,54 +1,54 @@
-.footer_section {
+.footer__section {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer_container {
+.footer__container {
   display: flex;
   margin: 0px auto;
   width: 1200px;
   margin: 0 auto;
 }
 
-.logo_studio--footer {
+.logo__studio--footer {
   color: #ffffff;
 }
 
-.contacts_container {
+.contacts__container {
   width: 240px;
   height: 90px;
 }
 
-.contacts_nav .contacts_link {
+.contacts__nav .contacts__link {
   color: rgba(255, 255, 255, 0.6);
   &.link-footer:focus {
     color: var(--fifeth-text-color);
   }
 }
 
-.contacts_item--map {
+.contacts__item--map {
   margin-top: 20px;
 }
-.contacts_item--mail {
+.contacts__item--mail {
   margin-top: 9px;
 }
-.contacts_item--tel {
+.contacts__item--tel {
   margin-top: 9px;
   padding-bottom: 60px;
 }
 
-.color_white {
+.color__white {
   color: var(--first-text-color);
 }
 
-.adress-links .contacts_link:focus {
-  .color_white {
+.adress-links .contacts__link:focus {
+  .color__white {
     color: var(--fifeth-text-color);
   }
 }
 
-.contacts_element {
+.contacts__element {
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
@@ -56,13 +56,13 @@
   letter-spacing: 0.03em;
 }
 
-.social_container {
+.social__container {
   margin-left: 70px;
   align-items: flex-end;
   padding-top: 12px;
 }
 
-.footer_title {
+.footer__title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -72,21 +72,21 @@
   color: #ffffff;
   font-style: normal;
 }
-.social_nav {
+.social__nav {
   display: flex;
   justify-content: center;
 }
 
-.social_item {
+.social__item {
   width: 44px;
   height: 44px;
   margin-top: 20px;
 }
-.social_item + .social_item {
+.social__item + .social__item {
   margin-left: 10px;
 }
 
-.social_link {
+.social__link {
   height: 100%;
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
@@ -100,13 +100,13 @@
   &:focus {
     background-color: var(--fifeth-text-color);
   }
-  &:hover .social_icon,
-  &:focus .social_icon {
+  &:hover .social__icon,
+  &:focus .social__icon {
     fill: #ffffff;
   }
 }
 
-.social_icon {
+.social__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +115,7 @@
   fill: #ffffff;
 }
 
-.input_container {
+.input__container {
   padding-left: 93px;
   padding-top: 12px;
   display: block;
@@ -123,19 +123,19 @@
   justify-content: center;
 }
 
-.input_title {
+.input__title {
   display: block;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.input-form_container {
+.input-form__container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.input_line {
+.input__line {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   outline: none;
@@ -149,7 +149,7 @@
   color: #ffffff;
 }
 
-.input_button {
+.input__button {
   @extend .button;
   margin-left: 12px;
   display: flex;
@@ -157,7 +157,7 @@
   justify-content: center;
   letter-spacing: 0.06em;
 }
-.send_icon {
+.send__icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;

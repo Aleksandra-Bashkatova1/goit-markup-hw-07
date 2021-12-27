@@ -1,19 +1,19 @@
-.work_section {
+.work__section {
   padding-left: 15px;
   padding-bottom: 94px;
 }
 
-.work-container {
+.work__container {
   margin: 0 auto;
   width: 1170px;
   height: 386px;
 }
 
-.work_nav {
+.work__nav {
   display: flex;
 }
 
-.work_item {
+.work__item {
   margin-right: 0px;
   position: relative;
   &:not(:last-child) {
@@ -21,7 +21,7 @@
   }
 }
 
-.work_text {
+.work__text {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.work_text--color {
+.work__text--color {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
 }

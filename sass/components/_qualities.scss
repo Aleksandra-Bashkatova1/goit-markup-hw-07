@@ -1,19 +1,19 @@
-.qualities_section {
+.qualities__section {
   padding-bottom: 94px;
   padding-top: 108px;
 }
 
-.qualities_container {
+.qualities__container {
   margin: 0 auto;
   width: 1170px;
   height: 251px;
 }
 
-.qualities_nav {
+.qualities__nav {
   display: flex;
 }
 
-.qualities_item {
+.qualities__item {
   height: 101px;
   width: 270px;
   margin-right: auto;
@@ -22,7 +22,7 @@
   }
 }
 
-.qualities_overlay {
+.qualities__overlay {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -33,7 +33,7 @@
   justify-content: center;
 }
 
-.qualities_icon {
+.qualities__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@
   height: 70px;
 }
 
-.qualities_title {
+.qualities__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -50,7 +50,7 @@
   color: var(--third-tex-color);
 }
 
-.qualities_description {
+.qualities__description {
   margin: 0 auto;
   font-size: 14px;
   line-height: 1.71;
